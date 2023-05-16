@@ -1,0 +1,19 @@
+rebound1=# CREATE DATABASE nuevo_curso;
+CREATE DATABASE
+rebound1=# CREATE USER user1;
+CREATE ROLE
+rebound1=# CREATE USER user2;
+CREATE ROLE
+rebound1=# CREATE USER user3;
+CREATE ROLE
+rebound1=# \l nuevo_curso
+                                                        Listado de base de datos
+   Nombre    |  Dueño   | Codificación |      Collate       |       Ctype        | configuración ICU | Proveedor de locale | Privilegios
+-------------+----------+--------------+--------------------+--------------------+-------------------+---------------------+-------------
+ nuevo_curso | postgres | UTF8         | Spanish_Chile.utf8 | Spanish_Chile.utf8 |                   | libc                |
+(1 fila)
+
+
+rebound1=# \c nuevo_curso
+Ahora está conectado a la base de datos «nuevo_curso» con el usuario «postgres».
+nuevo_curso=#
