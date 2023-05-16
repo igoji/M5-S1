@@ -1,0 +1,15 @@
+DirectorioTelefonico=# CREATE DATABASE rebound1;
+CREATE DATABASE
+DirectorioTelefonico=# CREATE USER usuarioRebound;
+CREATE ROLE
+DirectorioTelefonico=# \l rebound1
+                                                       Listado de base de datos
+  Nombre  |  Dueño   | Codificación |      Collate       |       Ctype        | configuración ICU | Proveedor de locale | Privilegios
+----------+----------+--------------+--------------------+--------------------+-------------------+---------------------+-------------
+ rebound1 | postgres | UTF8         | Spanish_Chile.utf8 | Spanish_Chile.utf8 |                   | libc                |
+(1 fila)
+
+
+DirectorioTelefonico=# \c rebound1
+Ahora está conectado a la base de datos «rebound1» con el usuario «postgres».
+rebound1=#
